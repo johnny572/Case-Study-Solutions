@@ -1,0 +1,24 @@
+Uber Black Rides
+Last Updated: August 2024
+Product
+ID 2305
+
+Uber Black rides have dropped 10%. How would you investigate this reduction?
+
+solution = 
+- First, I would confirm what the 10% drop means—whether it’s compared to last week, last month, or last year, and whether it refers to completed rides or ride requests.
+- Next, I would break the problem into three parts: demand, supply, and conversion. To investigate a 10% drop in Uber Black rides, I would clarify the scope of the decline—time period, geography,
+- Next, I would decompose the metric into demand, supply, and marketplace efficiency
+
+**1. Demand-side analysis**
+- Check changes in Uber Black ride requests and app impressions
+- Analyze fare trends
+- corporate vs personal riders and repeat vs new users
+
+**2 Marketplace & conversion metrics
+- Monitor  rider cancellations or driver cancellations
+- Identify increased wait times
+
+Finally, I would segment the data by city and time of day to see if the issue is localized, and check for any recent pricing, policy, or product changes that could have impacted Uber Black usage.
+
+This approach helps identify whether the drop is caused by demand, supply, or marketplace efficiency
