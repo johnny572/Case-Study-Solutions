@@ -1,0 +1,48 @@
+# Table Joins – Theory Notes
+
+## Difference between Cartesian Product and Outer Join
+
+### Cartesian Product (CROSS JOIN)
+
+Cartesian product means **combining every row of one table with every row of another table**.
+
+* It does **not require any join condition**
+* All possible combinations of rows are returned
+* If Table A has 3 rows and Table B has 4 rows, the result will have **12 rows**
+* It is rarely used in real applications
+* Sometimes happens by mistake when a JOIN condition is missing
+
+---
+
+### Outer Join
+
+Outer join is used to **join related data from two tables** and also **include rows that do not match**.
+
+Types of outer joins:
+
+* **LEFT OUTER JOIN** – returns all rows from the left table
+
+* **RIGHT OUTER JOIN** – returns all rows from the right table
+
+* **FULL OUTER JOIN** – returns all rows from both tables
+
+* A join condition is required
+
+* Unmatched rows contain `NULL` values
+
+* Very commonly used in real-world queries
+
+---
+
+### Key Differences
+
+| Cartesian Product          | Outer Join              |
+| -------------------------- | ----------------------- |
+| No join condition required | Join condition required |
+| Returns all combinations   | Returns matched data    |
+| Result size is very large  | Result is meaningful    |
+| Rarely used                | Frequently used         |
+
+---
+
+
